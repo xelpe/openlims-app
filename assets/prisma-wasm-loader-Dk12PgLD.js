@@ -1,0 +1,1 @@
+const e=""+new URL("query_compiler_bg-BCv955sS.wasm",import.meta.url).href,t=(async()=>{const a=await(await fetch(e)).arrayBuffer();return{default:await WebAssembly.compile(a)}})();export{t as default};
